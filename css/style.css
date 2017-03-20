@@ -8,3 +8,46 @@ h1 {
   font-weight: 400;
   padding-left: 20px;
 }
+
+.main {
+margin-top: 80px;
+}
+
+form input {
+  background: #f0f0f0;
+
+  border: none;
+  border-left: 2px solid #fff;
+
+  font-size: 36px;
+  padding: 20px;
+  width: 100%;
+
+  transition: background 2s, border-left 2s;
+}
+
+form input:focus {
+  background: #fff;
+  border-left: 2px solid #000;
+  box-shadow: none;
+  outline: none;
+}
+
+button.btn {
+  background: transparent;
+  border: none;
+
+  color: #00f28f;
+  cursor: pointer;
+
+  font-size: 36px;
+
+  padding: 20px 24px;
+
+  transition: background 2s, color 2s;
+}
+
+button.btn:hover {
+  background: #00f28f;
+  color: #fff;
+}
